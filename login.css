@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(224, 235, 245);
+}
+.container {
+    padding: 50px;
+    background-color: rgb(203, 231, 240);
+    margin-top: 200px;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f3f3f3d2;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #e9e5b4;
+    outline: none;
+}
+.registerbtn {
+    background-color: #75a8b4;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.registerbtn:hover {
+    opacity: 1;
+}
+button:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+body, main, .container {
+    background: transparent;
+}
+
+input[type="text"], input[type="password"], button {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+body{
+    background-image: url('imag.avif');
+    background-size: auto;
+    background-repeat: repeat;
+    
+}
+
+.container:hover{
+    background-image: url('new.jpg');
+    background-size: auto;
+}
