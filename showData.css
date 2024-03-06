@@ -81,3 +81,19 @@ a {
     width: 10vh;
     
   }
+  section{
+    text-align: center;
+    height: 20px;
+  }
+
+  section h5{
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  section p{
+    color: green;
+    font-size: 15px;
+  }
