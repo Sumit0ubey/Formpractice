@@ -38,3 +38,46 @@ tr{
 #nav1{
     background-color: antiquewhite;
 }
+
+footer{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0.1, 0, 0, 0.2);
+    margin-top: 200px;
+    
+}
+
+a {
+    color: #e99f4b;
+    text-decoration: none;
+  }
+ a:hover {
+    text-decoration: underline;
+    color: green;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 600px) {
+    footer {
+      padding: 10px;
+    }
+  }
+
+  footer img {
+    border-radius: 150vh;
+    padding-top: 10px;
+    padding-left: 15px;
+    float: right;
+    height: 10vh;
+    width: 10vh;
+    
+  }
