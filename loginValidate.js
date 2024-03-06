@@ -16,3 +16,6 @@ function validateAndRedirect() {
     }
 }
 
+document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
