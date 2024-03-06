@@ -22,3 +22,6 @@ window.onload = function() {
     fetchData();
 };
 
+document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
