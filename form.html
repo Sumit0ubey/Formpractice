@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Student registration form
+        </title>
+    <meta name="viewport"
+          content="width=device-width,
+           initial-scale=1">
+        <link rel="stylesheet" href="form.css">
+        <script src="form.js"></script>
+</head>
+<body>
+<main>
+    <div class="container">
+        <h1> Student Registeration
+          Form</h1>
+        <form  action="conformination.html" action="showData.html"
+         method="get" id="Forms" onsubmit="return validateForm()">
+        <label> Firstname </label> 
+        <input type="text" name="firstname" 
+           placeholder= "Firstname"
+           size="15" required id ="fname"/> 
+
+        <label> Lastname: </label>  
+        <input type="text" name="lastname"
+         placeholder="Lastname"
+         size="15"required id="lname"/> 
+
+        <label> Gender :</label><br>
+        <input type="radio" value="Male"
+            name="gender" checked /> Male 
+        <input type="radio" value="Female"
+         name="gender"/> Female 
+        <input type="radio" value="Other"
+         name="gender"/> Other
+
+    <div class="no">
+        <label> Phone :</label> <br>
+        <input type="number" name="phone"
+         placeholder="phone no." maxlength="10" 
+          required id="phone"/>
+    </div >
+        <button type="submit"
+        class="registerbtn">Register</button>
+       </form>
+    </div>
+</main>
+<footer>
+    
+</footer>
+</body>
+<script src="showdata.js"></script>
+</html>
