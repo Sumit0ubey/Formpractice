@@ -63,3 +63,23 @@ input[type=number]:focus{
     outline: none;
 }
 
+body, main, .container {
+    background: transparent;
+}
+
+input[type="text"], input[type="password"], button {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+body{
+    background-image: url('imag.avif');
+    background-size: auto;
+    background-repeat: repeat;
+    
+}
+
+.container:hover{
+    background-image: url('new.jpg');
+    background-size: auto;
+}
