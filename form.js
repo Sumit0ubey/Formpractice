@@ -30,3 +30,7 @@ Phone_no = document.getElementById("fillphoneno");
 First_name.innerText = Fname;
 Last_name.innerText = Lname;
 Phone_no.innerText = Phone;
+
+document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
